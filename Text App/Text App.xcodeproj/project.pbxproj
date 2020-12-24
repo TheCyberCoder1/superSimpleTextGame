@@ -13,6 +13,10 @@
 		F863ED0125942DDA00C13D83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F863ECFF25942DDA00C13D83 /* Main.storyboard */; };
 		F863ED0325942DDD00C13D83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F863ED0225942DDD00C13D83 /* Assets.xcassets */; };
 		F863ED0625942DDD00C13D83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F863ED0425942DDD00C13D83 /* LaunchScreen.storyboard */; };
+		F863ED1125942ED100C13D83 /* PythonLibrary+Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863ED0E25942ED100C13D83 /* PythonLibrary+Symbols.swift */; };
+		F863ED1225942ED100C13D83 /* Python.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863ED0F25942ED100C13D83 /* Python.swift */; };
+		F863ED1325942ED100C13D83 /* PythonLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = F863ED1025942ED100C13D83 /* PythonLibrary.swift */; };
+		F863ED18259430D300C13D83 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = F863ED17259430D300C13D83 /* main.py */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F863ED0225942DDD00C13D83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F863ED0525942DDD00C13D83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F863ED0725942DDD00C13D83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F863ED0E25942ED100C13D83 /* PythonLibrary+Symbols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PythonLibrary+Symbols.swift"; sourceTree = "<group>"; };
+		F863ED0F25942ED100C13D83 /* Python.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Python.swift; sourceTree = "<group>"; };
+		F863ED1025942ED100C13D83 /* PythonLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PythonLibrary.swift; sourceTree = "<group>"; };
+		F863ED17259430D300C13D83 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		F863ECF825942DDA00C13D83 /* Text App */ = {
 			isa = PBXGroup;
 			children = (
+				F863ED17259430D300C13D83 /* main.py */,
 				F863ECF925942DDA00C13D83 /* AppDelegate.swift */,
 				F863ECFB25942DDA00C13D83 /* SceneDelegate.swift */,
 				F863ECFD25942DDA00C13D83 /* ViewController.swift */,
@@ -63,6 +72,9 @@
 				F863ED0225942DDD00C13D83 /* Assets.xcassets */,
 				F863ED0425942DDD00C13D83 /* LaunchScreen.storyboard */,
 				F863ED0725942DDD00C13D83 /* Info.plist */,
+				F863ED0F25942ED100C13D83 /* Python.swift */,
+				F863ED1025942ED100C13D83 /* PythonLibrary.swift */,
+				F863ED0E25942ED100C13D83 /* PythonLibrary+Symbols.swift */,
 			);
 			path = "Text App";
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 				F863ED0625942DDD00C13D83 /* LaunchScreen.storyboard in Resources */,
 				F863ED0325942DDD00C13D83 /* Assets.xcassets in Resources */,
 				F863ED0125942DDA00C13D83 /* Main.storyboard in Resources */,
+				F863ED18259430D300C13D83 /* main.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F863ECFE25942DDA00C13D83 /* ViewController.swift in Sources */,
+				F863ED1125942ED100C13D83 /* PythonLibrary+Symbols.swift in Sources */,
 				F863ECFA25942DDA00C13D83 /* AppDelegate.swift in Sources */,
 				F863ECFC25942DDA00C13D83 /* SceneDelegate.swift in Sources */,
+				F863ED1225942ED100C13D83 /* Python.swift in Sources */,
+				F863ED1325942ED100C13D83 /* PythonLibrary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
