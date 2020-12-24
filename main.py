@@ -22,8 +22,9 @@ while user != 2:
 
 # part 2
 
+user = int(input("which area would you like to look in:  living room (1), office (2), bedroom area (3)? "))
+
 while user != 2:
-	user = int(input("which area would you like to look in:  living room (1), office (2), bedroom area (3)? "))
 	if user == 1 or user == 2:
 		print("hmmm.... no sign of any mad CEO")
 		continue
@@ -34,8 +35,9 @@ while user != 2:
 		print("Detective! Now is not time to play silly games!")
 		continue
 
+user = int(input("which room would you like to look in:   Clue: 0  | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25.    [Gee how big is this place?!]   ? "))
+
 while user != 2:
-	user = int(input("which room would you like to look in:   Clue: 0  | 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25.    [Gee how big is this place?!]   ? "))
 	if user < 17 or user > 17 and user :
 		print("hmmm.... no sign of any mad CEO")
 		continue
